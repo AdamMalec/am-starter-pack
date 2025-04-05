@@ -1,0 +1,37 @@
+:root {
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.4;
+	font-weight: 400;
+
+	color-scheme: light dark;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+section {
+  padding-block: 80px;
+
+	@media screen and (width <= 1280px) {
+		padding-block: 48px;
+	}
+
+	@media screen and (width <= 1024px) {
+		padding-block: 32px;
+	}
+
+	@media screen and (width <=768px) {
+    padding-block: 16px;
+  }
+}

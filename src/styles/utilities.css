@@ -1,10 +1,10 @@
 /* console.log() for CSS */
-/* *,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
   outline: 2px solid crimson;
-} */
+}
 
 /* Modern version of container class according Kevin Powell */
 /* https://www.youtube.com/watch?v=DGOeyJjq80g&list=LL&index=8&t=1063s */
@@ -32,6 +32,14 @@
   .container {
     --padding: 1rem;
   }
+}
+
+/* Breaking out of a central container */
+/* https://css-irl.info/breaking-out-of-a-central-wrapper/ */
+.container__full-width {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translate3d(-50%, 0, 0);
 }
 
 .visually-hidden {

@@ -3,7 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  outline: 2px solid crimson;
+  /* outline: 2px solid crimson; */
 }
 
 /* Modern version of container class according Kevin Powell */

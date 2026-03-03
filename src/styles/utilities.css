@@ -42,6 +42,7 @@
   transform: translate3d(-50%, 0, 0);
 }
 
+/* Helper to visually hide elements but keep them accessible to assistive technologies */
 .visually-hidden {
   position: absolute;
   margin: -1px;

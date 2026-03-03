@@ -8,12 +8,29 @@
 
   --color-brand: var(--color-pink);
   --color-accent: var(--color-blue);
-  --color-text: var(--color-black);
-  --color-bg: var(--color-cream);
+
+  --color-text-primary: var(--color-black);
+  --color-text-secondary: var(--color-gray);
+
+  --color-bg-default: var(--color-white);
+  --color-bg-complementary: var(--color-cream);
+  --color-bg-brand: var(--color-brand);
+  --color-bg-opposite: var(--color-black);
 
   --radius-l: 16px;
   --radius-m: 12px;
   --radius-s: 8px;
 
-  --shadow: 4px 4px 12px 0 rgba(0, 0, 0, 0.34);
+  --shadow: 2px 4px 10px 0 hsl(0 0% 40% / 0.4);
+}
+
+/* Dark Theme for Operation Systenm option */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-primary: var(--color-white);
+    --color-text-secondary: var(--color-cream);
+    --color-bg-default: var(--color-black);
+    --color-bg-complementary: var(--color-gray);
+    --color-bg-opposite: var(--color-white);
+  }
 }

@@ -1,4 +1,5 @@
 @import "./styles/reset.css" layer(reset);
-@import "./styles/variables.css";
-@import "./styles/utilities.css";
-@import "./styles/common.css";
+@import "./styles/variables.css" layer(variables);
+@import "./styles/base.css" layer(base);
+@import "./styles/_components.css" layer(components);
+@import "./styles/utilities.css" layer(utils);

@@ -2,5 +2,5 @@
 @import "./styles/variables.css" layer(variables);
 @import "./styles/fonts.css" layer(fonts);
 @import "./styles/base.css" layer(base);
-@import "./styles/_components.css" layer(components);
 @import "./styles/utilities.css" layer(utils);
+@import "./styles/button.css";

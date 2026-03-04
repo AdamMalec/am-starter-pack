@@ -1,15 +1,20 @@
 .button {
+  --color-text: var(--color-text-primary);
+  --color-bg: var(--color-brand);
+  --color-outline: var(--color-text-primary);
+  --border-radius: var(--radius-s);
+
   display: inline-block;
   padding: 0.8em 1em;
   text-transform: capitalize;
   text-decoration: none;
   line-height: 1.1;
-  color: var(--color-text-light-primary);
-  background-color: var(--color-brand);
+  color: var(--color-text);
+  background-color: var(--color-bg);
   border-width: 0.1em;
   border-style: outset;
   border-color: buttonBorder;
-  border-radius: var(--radius-s);
+  border-radius: var(--border-radius);
   box-shadow: 2px 4px 4px 0 hsl(0 0% 42% / 0.4);
   transition: all 0.12s;
   outline-offset: 0.2em;
@@ -17,7 +22,7 @@
 
   &:hover,
   &:focus-visible {
-    background-color: hsl(from var(--color-brand) h s calc(l + 3));
+    background-color: hsl(from var(--color-bg) h s calc(l + 3));
     box-shadow: 2px 4px 5px 1px hsl(0 0% 40% / 0.3);
   }
 
@@ -49,15 +54,15 @@
 }
 
 .button--outline {
-  color: var(--color-brand);
+  color: var(--color-outline);
   background-color: transparent;
-  border: 2px solid var(--color-brand);
+  border: 2px solid var(--color-outline);
   box-shadow: none;
 
   &:hover,
   &:focus-visible {
-    color: var(--color-text-primary);
-    background-color: var(--color-brand);
+    color: var(--color-text);
+    background-color: var(--color-bg);
     box-shadow: none;
   }
 }

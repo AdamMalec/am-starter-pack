@@ -2,7 +2,7 @@
   --color-pink: #f582ae;
   --color-blue: #8bd3dd;
   --color-cream: #f3d2c1;
-  --color-black: #001858;
+  --color-black: #000c2b;
   --color-gray: #3e3e3e;
   --color-white: #fef6e4;
 
@@ -12,19 +12,22 @@
   --color-text-primary: var(--color-black);
   --color-text-secondary: var(--color-gray);
 
-  --color-bg-default: var(--color-white);
-  --color-bg-complementary: var(--color-cream);
+  --color-bg: var(--color-white);
   --color-bg-brand: var(--color-brand);
+  --color-bg-complementary: var(--color-cream);
   --color-bg-opposite: var(--color-black);
 
   --font-family-brand: 'Luckiest Guy';
   --font-family-primary: 'IBM Plex Serif';
 
-  --radius-l: 16px;
-  --radius-m: 12px;
   --radius-s: 8px;
+  --radius-m: 12px;
+  --radius-l: 16px;
 
   --shadow: 2px 4px 10px 0 hsl(0 0% 40% / 0.4);
+
+  --container-max-width: 1298px;
+  --container-padding: 2rem;
 }
 
 /* Dark Theme for Operation Systenm option */
@@ -33,7 +36,7 @@
     --color-brand: hsl(from var(--color-pink) h s calc(l - 16));
     --color-text-primary: var(--color-white);
     --color-text-secondary: var(--color-cream);
-    --color-bg-default: var(--color-black);
+    --color-bg: var(--color-black);
     --color-bg-complementary: var(--color-gray);
     --color-bg-opposite: var(--color-white);
   }

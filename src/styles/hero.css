@@ -1,3 +1,5 @@
 .hero__title {
+  margin-block: 0.4em;
   font-family: var(--font-family-brand);
+  font-size: 3rem;
 }

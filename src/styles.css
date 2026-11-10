@@ -4,3 +4,4 @@
 @import "./styles/base.css" layer(base);
 @import "./styles/utilities.css" layer(utils);
 @import "./styles/button.css";
+@import "./styles/hero.css";

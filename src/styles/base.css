@@ -37,3 +37,9 @@ section {
     padding-block: 16px;
   }
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
